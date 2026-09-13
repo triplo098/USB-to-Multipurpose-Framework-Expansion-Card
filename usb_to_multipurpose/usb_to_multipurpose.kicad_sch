@@ -3807,6 +3807,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "v1.0"
+		(exclude_from_sim no)
+		(at 270.51 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c3c3aae-98a1-4eec-bbe0-3b7d9cb6fa22")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 188.976 173.99 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4183b9e6-6d9f-4854-a283-21e2aa47ea3f")
+	)
 	(junction
 		(at 134.62 38.1)
 		(diameter 0)
@@ -3940,6 +3960,12 @@
 		(uuid "a874f7eb-eb12-46c0-a99b-ac7eb9abc8aa")
 	)
 	(junction
+		(at 194.31 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5e07eba-c9ce-47e7-ad15-5d5b065d5452")
+	)
+	(junction
 		(at 106.68 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4000,10 +4026,6 @@
 		(uuid "f4992c81-cea4-4f67-8a69-c8e5bab648c1")
 	)
 	(no_connect
-		(at 198.12 54.61)
-		(uuid "01966c80-83c1-4610-9d0b-ae7518e0ea44")
-	)
-	(no_connect
 		(at 127 66.04)
 		(uuid "19ccc6bc-5bbb-4f7e-9aea-b44b5361cb1e")
 	)
@@ -4014,10 +4036,6 @@
 	(no_connect
 		(at 127 58.42)
 		(uuid "51d56ca0-367c-4146-b8be-f6ccc4bce60c")
-	)
-	(no_connect
-		(at 198.12 36.83)
-		(uuid "64323354-9d80-4dda-8a66-4bf321ecbb46")
 	)
 	(no_connect
 		(at 127 68.58)
@@ -4060,6 +4078,16 @@
 			(type default)
 		)
 		(uuid "0ac3edf0-d730-4c08-8f1a-286e8279ebcc")
+	)
+	(wire
+		(pts
+			(xy 194.31 54.61) (xy 199.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5b6e7c-3456-46c3-896e-5d27a891b7fb")
 	)
 	(wire
 		(pts
@@ -4110,16 +4138,6 @@
 			(type default)
 		)
 		(uuid "158b4fac-0c26-485e-ae76-00095db92dec")
-	)
-	(wire
-		(pts
-			(xy 198.12 54.61) (xy 199.39 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16fba923-d584-4476-be93-e1a197616ff2")
 	)
 	(wire
 		(pts
@@ -4180,16 +4198,6 @@
 			(type default)
 		)
 		(uuid "20c01ba8-184c-4c64-b0ed-1ed14d3a0933")
-	)
-	(wire
-		(pts
-			(xy 127 48.26) (xy 146.05 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22b4e12d-9bf3-48cf-838b-0d110dd579c3")
 	)
 	(wire
 		(pts
@@ -4303,6 +4311,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 48.26) (xy 137.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313403b5-6ba2-4946-a6bd-6ed513264b6e")
+	)
+	(wire
+		(pts
 			(xy 144.78 81.28) (xy 135.89 81.28)
 		)
 		(stroke
@@ -4380,6 +4398,16 @@
 			(type default)
 		)
 		(uuid "42cae4fa-efd4-4e0b-a7e0-da4486a1a745")
+	)
+	(wire
+		(pts
+			(xy 127 50.8) (xy 127 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465d5309-9a51-4c6e-93c1-b96b130a510e")
 	)
 	(wire
 		(pts
@@ -4513,16 +4541,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 50.8) (xy 146.05 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe355ec-e7be-492f-8ee7-e02dee6b3595")
-	)
-	(wire
-		(pts
 			(xy 143.51 27.94) (xy 143.51 30.48)
 		)
 		(stroke
@@ -4563,6 +4581,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 48.26) (xy 137.16 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ddcfce1-9334-4428-ad18-c7ae2523dbb4")
+	)
+	(wire
+		(pts
 			(xy 127 45.72) (xy 146.05 45.72)
 		)
 		(stroke
@@ -4570,6 +4598,16 @@
 			(type default)
 		)
 		(uuid "6de8405a-411c-4a34-a04d-2a6051ecd3cb")
+	)
+	(wire
+		(pts
+			(xy 194.31 36.83) (xy 199.39 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f427546-2d4d-41d1-9fd1-8d65b3a08375")
 	)
 	(wire
 		(pts
@@ -4823,16 +4861,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 36.83) (xy 199.39 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c8fe2a1-2aeb-41dd-a857-65cd2e1ae3e0")
-	)
-	(wire
-		(pts
 			(xy 246.38 49.53) (xy 246.38 52.07)
 		)
 		(stroke
@@ -4860,6 +4888,16 @@
 			(type default)
 		)
 		(uuid "a31e53d4-a5ce-4018-8265-788d40d793ab")
+	)
+	(wire
+		(pts
+			(xy 194.31 36.83) (xy 194.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82d0270-1671-428f-ae19-60143a00efce")
 	)
 	(wire
 		(pts
@@ -5133,6 +5171,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 49.53) (xy 146.05 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88d9c51-8bec-4321-993b-97156a4c7060")
+	)
+	(wire
+		(pts
 			(xy 128.27 35.56) (xy 146.05 35.56)
 		)
 		(stroke
@@ -5220,6 +5268,16 @@
 			(type default)
 		)
 		(uuid "dfe7ad5b-734c-4c7e-8ad7-3ef8c0aab9d8")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 146.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e16e5b76-d561-4501-bae8-3b0f0122fdd6")
 	)
 	(wire
 		(pts
@@ -5370,6 +5428,16 @@
 			(type default)
 		)
 		(uuid "fa7605c5-d786-4bf7-8869-9eb9e109890c")
+	)
+	(wire
+		(pts
+			(xy 127 49.53) (xy 146.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb392a10-00cf-4ad7-a00a-45859e9fdeab")
 	)
 	(wire
 		(pts
@@ -5968,7 +6036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 120.65 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6089,6 +6157,83 @@
 			(project "usb_to_multipurpose"
 				(path "/562f4026-a780-4e62-b45e-c24d64d1112c"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2409e722-2262-4647-9d03-efb522a0e78d")
+		(property "Reference" "#PWR027"
+			(at 194.31 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.818 58.928 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abd14f39-47b6-42d6-920d-469261dcd5ea")
+		)
+		(instances
+			(project "usb_to_multipurpose"
+				(path "/562f4026-a780-4e62-b45e-c24d64d1112c"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6424,7 +6569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 67.0052 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6740,7 +6885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 229.87 51.308 90)
 			(hide yes)
 			(show_name no)
@@ -7056,7 +7201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 73.66 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7527,7 +7672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 73.66 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8730,7 +8875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 135.89 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9122,7 +9267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 77.47 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9279,7 +9424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 73.66 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9358,7 +9503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 229.87 43.688 90)
 			(hide yes)
 			(show_name no)
@@ -9983,7 +10128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 80.01 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10467,7 +10612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 143.51 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10937,7 +11082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 107.6452 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11421,7 +11566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 252.73 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11500,7 +11645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 151.13 142.24 0)
 			(hide yes)
 			(show_name no)
