@@ -36,6 +36,7 @@
       "ratsnest",
       "grid",
       "footprints_front",
+      "footprints_back",
       "footprint_values",
       "footprint_references",
       "tracks",
@@ -52,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_aaaaaaa2_aaaaaafd",
+    "visible_layers": "ffffffff_ffffffff_aaaaaaa2_aaaaaaff",
     "zone_display_mode": 0
   },
   "git": {
