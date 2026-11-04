@@ -542,16 +542,16 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.15,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.3,
         "microvia_diameter": 0.6858,
         "microvia_drill": 0.3302,
         "name": "USB_DIFF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -569,11 +569,11 @@
       },
       {
         "netclass": "USB_DIFF",
-        "pattern": "D-"
+        "pattern": "*D-"
       },
       {
         "netclass": "USB_DIFF",
-        "pattern": "D+"
+        "pattern": "*D+"
       }
     ]
   },
